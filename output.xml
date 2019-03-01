@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190226 10:56:11.636" generator="Robot 3.1.1 (Python 2.7.15 on win32)">
+<suite source="E:\AAAInternship\Automated_Test\Robot_test\Testcase.robot" id="s1" name="Testcase">
+<test id="s1-t1" name="Open browser">
+<kw name="Open browser in google chrome">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20190226 10:56:11.831" level="INFO">Opening browser 'gc' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" endtime="20190226 10:56:18.754" starttime="20190226 10:56:11.831"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20190226 10:56:23.755" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20190226 10:56:23.755" starttime="20190226 10:56:18.754"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20190226 10:56:24.881" starttime="20190226 10:56:23.755"></status>
+</kw>
+<status status="PASS" endtime="20190226 10:56:24.881" starttime="20190226 10:56:11.831"></status>
+</kw>
+<status status="PASS" endtime="20190226 10:56:24.881" critical="yes" starttime="20190226 10:56:11.830"></status>
+</test>
+<status status="PASS" endtime="20190226 10:56:24.882" starttime="20190226 10:56:11.641"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Testcase" pass="1">Testcase</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
